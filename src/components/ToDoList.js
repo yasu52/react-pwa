@@ -40,9 +40,10 @@ const ToDoList = (props) =>{
                 </ListItemIcon>
                 <ListItemText primary={todo.content} />
                 <ListItemSecondaryAction>
-                    <IconButton edge="end" aria-label="delete" onClick={() => deleteHandle(todo.id)}>
+                    {/* 一時的な削除 */}
+                    {/* <IconButton edge="end" aria-label="delete" onClick={() => deleteHandle(todo.id)}>
                         <DeleteIcon />
-                    </IconButton>
+                    </IconButton> */}
                 </ListItemSecondaryAction>
             </ListItem>
         );
